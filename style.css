@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.lio{
+    color: #ff614c;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+.port{
+    font-size:xx-large;
+    font-weight: bold;
+    color: white;
+}
+
+.btn{
+    background-color: #ff614c;
+}
+
+.hello{
+    color: #fcfc;
+    font-size: 30px;
+}
+
+.ferdous{
+    color: #ff614c;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.jannatul{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.developer{
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+}
+
+.about-me-para{
+    color: #fcfc;
+}
+
+.about-me-fullstack{
+    color: #ff614c;
+}
