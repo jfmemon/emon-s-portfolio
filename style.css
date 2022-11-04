@@ -5,10 +5,14 @@ body{
 
 .lio{
     color: #62e5ff;
+    font-weight: bold;
+    font-size:x-large;
 }
 
 .port{
     color: white;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .btn{
