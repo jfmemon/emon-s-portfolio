@@ -18,8 +18,8 @@
     <header class="mb-lg-5 py-lg-2" id="home">
         <nav class="navbar navbar-expand-lg navbar-expand-md mb-5">
             <div class="container fixed-top bg-black py-lg-2 py-md-2 py-2">
-                <a class="navbar-brand" href="#home">
-                    <span class="port">PORTFO</span><span class="lio">LIO</span></a>
+                <a class="navbar-brand text-uppercase" href="#home">
+                    <span class="port">PORT</span><span class="lio">FOLIO</span></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,16 +40,24 @@
                         <li class="nav-item">
                             <a class="nav-link text-white fw-normal" href="#skills">Skills</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white fw-normal" href="#services">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white fw-normal" href="#contact">Contact</a>
+                        <li class="nav-item dropdown px-lg-3 px-md-2 px-3">
+                            <a class="nav-link fw-normal text-white dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="true" >
+                                MORE
+                            </a>
+                            <ul class="dropdown-menu mb-3">
+                                <li class="nav-item">
+                                    <a class="nav-link text-black fw-normal" href="#services">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-black fw-normal" href="#projects">Projects</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
-                    <a href="#home">
-                        <button type="button"
-                            class="btn btn-secondary text-white fw-normal rounded-pill text-uppercase border-0 ms-auto px-3 search-b ms-md-3 my-1 my-lg-0 my-md-0">Subscribe</button>
+                    <a href="#contact">
+                        <button class="btn btn-secondary rounded-pill border-0 ms-auto px-3 search-b ms-md-3 my-1 my-lg-0 my-md-0"
+                        type="submit">Contact</button>
                     </a>
                 </div>
             </div>
@@ -58,8 +66,8 @@
         <section class="container my-lg-5 mt-5 ">
             <div class="row align-items-center flex-column-reverse flex-lg-row flex-md-row p-3">
                 <div class="col-lg-6 col-md-6 col-12 gy-3 shadow-lg">
-                    <h5 class="hello">Hello, my name is</h5>
-                    <h1><span class="jannatul">Md.Jannatul</span>
+                    <h4 class="hello fw-bold">Hello, my name is</h4>
+                    <h1 class="fw-bold"><span class="jannatul">Md.Jannatul</span>
                         <span class="ferdous">Ferdous</span>
                     </h1>
                     <h4 class="developer">I am a Web Developer.</h4>
@@ -180,51 +188,51 @@
             </div>
         </section>
 
-        <section class="container mt-lg-5 bg-secondary rounded p-5" id="services">
-            <h1 class="text-white fw-bold text-center pb-3">My <span class="about-me-fullstack">Services</span></h1>
+        <section class="container my-lg-5 my-lg-4 my-5 py-2 py-md-3 py-lg-4 rounded bg-secondary" id="services">
+            <h2 class="fw-bold text-center my-lg-4 my-md-3 my-4 text-white">My <span class="about-me-fullstack">Services</span></h2>
             <div class="row row-cols-1 row-cols-md-3 row-cols-lg-5 g-4 p-4">
                 <div class="col">
-                    <div class="card text-bg-secondary border-0">
+                    <div class="card border-0 shadow">
                         <img src="icons/frontend.png" class="card-img-top m-auto" alt="..."
                             style="width: 60px; height: auto;">
                         <div class="card-body">
-                            <h6 class="card-title text-center">Front End Dev</h6>
+                            <h5 class="card-title text-center">Front End Dev</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-bg-secondary border-0">
+                    <div class="card border-0 shadow">
                         <img src="icons/backend.png" class="card-img-top m-auto" alt="..."
                             style="width: 60px; height: auto;">
                         <div class="card-body">
-                            <h6 class="card-title text-center">Back End Dev</h6>
+                            <h5 class="card-title text-center">Back End Dev</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-bg-secondary border-0">
+                    <div class="card  border-0 shadow">
                         <img src="icons/database.png" class="card-img-top m-auto" alt="..."
                             style="width: 60px; height: auto;">
                         <div class="card-body">
-                            <h6 class="card-title text-center">Databases</h6>
+                            <h5 class="card-title text-center">Databases</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-bg-secondary border-0">
+                    <div class="card border-0 shadow">
                         <img src="icons/devops.png" class="card-img-top m-auto" alt="..."
                             style="width: 60px; height: auto;">
                         <div class="card-body">
-                            <h6 class="card-title text-center">DevOps</h6>
+                            <h5 class="card-title text-center">DevOps</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card text-bg-secondary border-0">
+                    <div class="card border-0 shadow">
                         <img src="icons/mobile app dev.png" class="card-img-top m-auto" alt="..."
                             style="width: 60px; height: auto;">
                         <div class="card-body">
-                            <h6 class="card-title text-center">Mobile App Dev</h6>
+                            <h5 class="card-title text-center">Mobile App Dev</h5>
                         </div>
                     </div>
                 </div>
@@ -245,29 +253,29 @@
     <footer class="container text-center bg-secondary">
 
         <section class="container mt-5 pt-5 mb-5 pb-5" id="contact">
-            <h2 class="text-white fw-bold py-3 text-center">Contact With Me</h2>
+            <h3 class="text-white fw-bold py-3 text-center">Contact With Me</h3>
             <div class="d-flex justify-content-center">
-                <div class="mx-4 shadow rounded-circle">
+                <div class="mx-2 mx-md-3 mx-lg-4 shadow rounded-circle">
                     <a href="https://www.facebook.com/profile.php?id=100031330742154">
                         <img src="icons/facebook.png" alt="" style="width: 50px; height: auto;">
                     </a>
                 </div>
-                <div class="mx-4 shadow rounded-circle">
+                <div class="mx-2 mx-md-3 mx-lg-4 shadow rounded-circle">
                     <a href="jfmemon1999@gmail.com">
                         <img src="icons/gmail.png" alt="" style="width: 50px; height: auto;">
                     </a>
                 </div>
-                <div class="mx-4 shadow rounded-circle">
+                <div class="mx-2 mx-md-3 mx-lg-4 shadow rounded-circle">
                     <a href="https://www.linkedin.com/in/md-jannatul-ferdous-108100180/">
                         <img src="icons/linkedin.png" alt="" style="width: 50px; height: auto;">
                     </a>
                 </div>
-                <div class="mx-4 shadow rounded-circle">
+                <div class="mx-2 mx-md-3 mx-lg-4 shadow rounded-circle">
                     <a href="">
                         <img src="icons/telegram.png" alt="" style="width: 50px; height: auto;">
                     </a>
                 </div>
-                <div class="mx-4 shadow rounded-circle">
+                <div class="mx-2 mx-md-3 mx-lg-4 shadow rounded-circle">
                     <a href="">
                         <img src="icons/whatsapp.png" alt="" style="width: 50px; height: auto;">
                     </a>

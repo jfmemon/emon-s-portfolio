@@ -5,7 +5,7 @@ body{
 
 
 .lio{
-    color: #00b1ec;
+    color: #62e5ff;
     font-size:xx-large;
     font-weight: bold;
 }
@@ -17,29 +17,22 @@ body{
 }
 
 .btn{
-    background-color: #00b1ec;
+    background-color: #62e5ff;
 }
 
 .hello{
     color: #fcfc;
-    font-size: 30px;
 }
 
 .ferdous{
-    color: #00b1ec;
-    font-size: 50px;
-    font-weight: bold;
+    color: #62e5ff;
 }
 
 .jannatul{
-    font-size: 50px;
-    font-weight: bold;
     color: white;
 }
 
 .developer{
-    font-weight: bold;
-    font-size: 35px;
     color: white;
 }
 
@@ -48,9 +41,9 @@ body{
 }
 
 .about-me-fullstack{
-    color: #00b1ec;
+    color: #62e5ff;
 }
 
 .skills{
-    background-color: #00b1ec;
+    background-color: #62e5ff;
 }
